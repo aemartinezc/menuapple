@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Menú CSS Apple</title>
+  </head>
+  <body>
+    <nav>
+      <div id="menu" onclick="menu();">
+        <div class="linea"></div>
+        <div class="linea"></div>
+      </div>
+      <div id="logo">
+          <img src="img/apple.svg" alt="logo apple">
+      </div>
+    </nav>
+  </body>
+  <script type="text/javascript">
+    function menu(){
+      var element = document.getElementById('menu');
+      element.classList.toggle('abierto');
+    }
+  </script>
+</html>
